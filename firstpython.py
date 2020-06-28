@@ -21,8 +21,5 @@ print(greet("Roberto"))
 
 
 r = requests.get("https://www.python.org")
-r.status_code
-
-
 print(r.status_code)
 
