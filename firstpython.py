@@ -5,7 +5,7 @@ from os import rename
 
 import requests
 
-print(sys.executable)
+# print(sys.executable)
 
 
 def greet(who_to_greet):
@@ -16,8 +16,6 @@ def greet(who_to_greet):
 # name = input("What is your name..?")
 # print("Good Morning says Junior", name)
 
-print("HOLA1")
-print("HOLA")
 print(greet("World"))
 print(greet("Roberto"))
 
